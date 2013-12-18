@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="status"
+        android:summaryOff="@string/status_description_off"
+        android:summaryOn="@string/status_description_on" />
+
+    <Preference
+        android:key="test"
+        android:summary="@string/test_description"
+        android:title="@string/test_label" />
+
+    <PreferenceCategory android:title="@string/settings" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="sticky"
+            android:title="@string/sticky_label" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="vibrate"
+            android:title="@string/vibrate_label" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/vibrate_pattern" >
+
+        <EditTextPreference
+            android:defaultValue="500"
+            android:dependency="vibrate"
+            android:inputType="number"
+            android:key="vibrate_on"
+            android:title="@string/vibrate_on" />
+
+        <EditTextPreference
+            android:defaultValue="500"
+            android:dependency="vibrate"
+            android:inputType="number"
+            android:key="vibrate_off"
+            android:title="@string/vibrate_off" />
+
+        <EditTextPreference
+            android:defaultValue="2"
+            android:dependency="vibrate"
+            android:inputType="number"
+            android:key="vibrate_cycles"
+            android:title="@string/vibrate_cycles" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

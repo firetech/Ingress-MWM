@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ingress-MWM</string>
+    
+    <!-- Label for the status checkbox -->
+    <string name="status_label_on">Accessibility service enabled</string>
+    <string name="status_label_off">Accessibility service disabled</string>
+    <string name="status_description_on">All good :)</string>
+    <string name="status_description_off">Click here to go to system settings to enable. The app will not work until you do.</string>
+
+    <!-- Label for the test item -->
+    <string name="test_label">Test</string>
+    <string name="test_description">Test the notification</string>
+
+    <!-- Label for the settings category -->
+    <string name="settings">Notification Settings</string>
+    
+    <!-- Label for the sticky checkbox -->
+    <string name="sticky_label">Sticky Notifications</string>
+    
+    <!-- Label for the vibrate pattern checkbox -->
+    <string name="vibrate_label">Vibrate</string>
+    
+    <!-- Labels for the vibrate pattern settings category -->
+    <string name="vibrate_pattern">Vibration Pattern</string>
+    <string name="vibrate_on">On (ms)</string>
+    <string name="vibrate_off">Off (ms)</string>
+    <string name="vibrate_cycles">Cycles</string>
+    
+</resources>
